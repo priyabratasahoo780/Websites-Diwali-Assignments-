@@ -120,9 +120,9 @@ input{
 }
 .onliner{
     margin-left:5%;
-    position: sticky;
-    top:0;
-}
+    /* position: sticky;
+    /* top:60px; */
+} 
 .men{
     font-size:2.6rem;
     font-weight: 900;
@@ -141,8 +141,8 @@ input{
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    position: sticky;
-    top:0px;
+    /* position: sticky; */
+    /* top:200px; */
 }
 .box{
     border: 1px solid rgba(0, 0, 0, 0.415);
@@ -275,34 +275,35 @@ input{
 }
 .h_symbol{
     /* border: 1px solid orange; */
+    background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761541072/solar--heart-outline_rvbyak.svg");
     width:2vw;
     height:5vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
     background-color: rgb(240,240,240);
     margin-top:6%;
     
 }
-.h_symbol img{
+/* .h_symbol img{
     display: flex;
     align-items: center;
-   position: relative;
-   top: 50%;
+   /* position: relative; */
+   /* top: 50%;
    left:50%;
    transform: translate(-50%, -50%);
-    background-color: rgb(240,240,240);
-}
+    background-color: rgb(240,240,240); */
+/* } */ */
 .O_Army{
-    /* border:1px solid red; */
+    border:1px solid red;
     width:100vw;
     height:6vh;
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    background-color: white;
-    position: sticky;
- top:0;
+    /* background-color: white; */
+   
 }
 .back_img{
     background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761495706/5719601_1_kdrh4u.jpg");
@@ -725,7 +726,7 @@ del{
     height:10vh;
     background-color:white; 
     position: sticky;
-    top:44px;
+    top:20px;
 }
 .show{
    /* border: 1px solid red; */
@@ -901,3 +902,53 @@ margin-top:2%;
   font-size:0.8REM;
   
 }
+.plus{
+    background-color: rgb(240,240,240);
+}
+/* 724  298*/
+.onliner{
+    margin-left:5%;
+    position: sticky;
+    top:0;
+}
+.O_Army{
+    /* border:1px solid red; */
+    width:100vw;
+    height:6vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: white;
+    position: sticky;
+ top:0;
+}
+.nine{
+    /* border:1px solid green; */
+    width:70vw;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    position: sticky;
+    top:0px;
+}
+.nine_main{
+    /* border:1px solid red; */
+    width:100vw;
+    height:10vh;
+    background-color:white; 
+    position: sticky;
+    top:44px;
+}
+.pricess{
+    border-bottom:4px solid rgb(255, 255, 255);
+    width:100vw;
+    height: 10vh;
+    display: flex;
+    align-items:center;
+    background-color:rgb(240, 240, 240);
+    justify-content: space-between;
+     position: sticky;
+    top:117px;
+} 

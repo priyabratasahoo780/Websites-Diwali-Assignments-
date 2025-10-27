@@ -4,6 +4,7 @@
     font-family:arial, sans-serif;
     box-sizing: border-box;
     color:white;
+    /* flex-wrap: wrap; */
 }
 .start{
     /* border:1px solid black; */
@@ -51,7 +52,7 @@
     height:100vh;
     background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761151161/bata1_hua2bi.webp");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
 }
 .bata{
     /* border: 1px solid green; */
@@ -124,7 +125,6 @@ input{
    display: flex;
    align-items: center;
     justify-content:space-between;
-    margin-left:1rem;
 }
 .three img{
     display: flex;
@@ -142,21 +142,21 @@ input{
     justify-content: space-between;
     align-items: center;
     text-decoration: underline;
-    margin-top:30rem;
-    margin-left:44rem;
+    margin-top:64vh;
+    margin-left:46vw;
     font-weight: 500;
 }
 .photo{
   /* BORDER:1PX SOLID GREEN; */
   width:100vw;
-  height:100vh;
+  height:130vh;
   display: flex;
 }
 .juti1{
     background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761209932/imgi_1527_desk_editorials_banner_1A_bata_aj5msg.jpg");
     width:50vw;
     height:130vh;
-    background-size:cover;
+    background-size:contain;
     background-repeat: no-repeat;
    
 }
@@ -164,7 +164,7 @@ input{
     background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761209930/imgi_277_banner2_desktop_cklsft.jpg");
     width:50vw;
     height:130vh;
-    background-size:cover;
+    background-size:contain;
     background-repeat: no-repeat;
 }
 .online{
@@ -178,8 +178,8 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top:56%;
-    margin-left:40%;
+    margin-top:53%;
+    margin-left:36%;
     font-weight: 550;
 }
 .for-flex_genders{
@@ -192,7 +192,7 @@ input{
     align-items: center;
     text-decoration: underline;
     font-weight:500;
-    margin-left:22rem; 
+    margin-left:22vw; 
     margin-top:3rem;
 }
 .onlines{
@@ -213,26 +213,26 @@ input{
 .three_photo{
     /* border: 1px solid green; */
     width:100vw;
-    height:100vh;
+    height:110vh;
     display: flex;
 }
 .photo_one{
     background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761217669/imgi_1544_Banner_Desktop_Bata_Festive_Men_1280x2276_evqzml.jpg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     width:33.33vw;
     height:130vh;
 }
 .photo_two{
     background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761217671/imgi_1547_Banner_Desktop_Bata_Festive_Women-1_1280x2276_o9z3n1.jpg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     width:33.33vw;
     height:130vh;
 }
 .photo_three{
     background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761217672/imgi_1550_BBG_Banner_Desktop_1280x2276_hailat.jpg");
-    background-size: cover;
+    background-size:contain;
     background-repeat: no-repeat;
     width:33.33vw;
     height:130vh;
@@ -249,7 +249,7 @@ input{
       font-family: "BBH Sans Bogle", sans-serif;
       font-style: normal;
     text-shadow:1px 1px 1px black;
-    margin-top:44rem;
+    margin-top:80vh;
 }
 .single{
     /* border: 1px solid red; */
@@ -270,7 +270,7 @@ input{
     background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761217669/imgi_1554_NS-2-Editorial-banner-2-columns-Desktop-1920x2276_fk7s8b.jpg");
     width:50vw;
     height:130vh;
-    background-size:cover;
+    background-size:contain;
     background-repeat: no-repeat;
    
 }
@@ -278,7 +278,7 @@ input{
     background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761217671/imgi_1557_1920x2276_ow8yj0.jpg");
     width:50vw;
     height:130vh;
-    background-size:cover;
+    background-size:contain;
     background-repeat: no-repeat;
 }
 .for-flex_gend{
@@ -324,7 +324,7 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left:28%;
+    margin-left:32%;
     text-decoration: underline;
     font-size:1rem;
 }
@@ -347,7 +347,7 @@ input{
 
 .for-flex_genden{
     /* border:1px solid green; */
-    width:40vh;
+    width:28vh;
     height:8vh;
     font-size:1rem;
     display: flex;
@@ -355,8 +355,7 @@ input{
     align-items: center;
     text-decoration: underline;
     font-weight:500;
-    margin-left:16rem; 
-    margin-top:2%;
+    margin-left:18vw; 
 }
 .blacks{
     color:black;
@@ -370,6 +369,7 @@ input{
     display: flex;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.058);
+    flex-wrap: wrap;
 }
 .vareify1{
     border-right:2px solid rgb(247, 249, 247);
@@ -421,44 +421,49 @@ input{
     width:24vw;
     height:60vh;
     background-size:contain;
+    background-repeat: no-repeat;
    
 }
 .back_img:hover{
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761283332/6618113_2_tsjyst.jpg");
     transition: all 0.25s linear;
+    background-repeat: no-repeat;
 }
 .back_img1{
     background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761283332/7798454_1_k1riok.jpg");
     width:24vw;
     height:60vh;
     background-size:contain;
-   
+    background-repeat: no-repeat;
 }
 .back_img1:hover{
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761283332/7798454_2_y6los0.jpg");
     transition: all 0.25s linear;
+    background-repeat: no-repeat;
 }
 .back_img2{
     background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761283331/8396212_1_bg079x.jpg");
     width:24vw;
     height:60vh;
     background-size:contain;
-   
+    background-repeat: no-repeat;
 }
 .back_img2:hover{
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761283331/8396212_2_jgm5ml.jpg");
     transition: all 0.25s linear;
+    background-repeat: no-repeat;
 }
 .back_img3{
     background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761283331/8396788_1_xrfcce.jpg");
     width:24vw;
     height:60vh;
     background-size:contain;
-   
+    background-repeat: no-repeat;
 }
 .back_img3:hover{
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761283331/8396788_2_sze4e8.jpg");
     transition: all 0.25s linear;
+    background-repeat: no-repeat;
 }
 .G_Box{
     /* border:1px solid red; */
@@ -468,6 +473,7 @@ input{
     flex-direction: column;
     margin-top:20rem;
     /* color:black; */
+    background-repeat: no-repeat;
 }
 .Bcolor{
     /* border:1px solid green; */
@@ -574,8 +580,8 @@ font-size: 0.9rem;
     width:33vw;
     height:44vh;
      background-repeat: no-repeat;
-    background-size:cover;
-    background-color: black; 
+    background-size:contain;
+    /* background-color: black;  */
   color: white;
   opacity: 1.0;
   filter: grayscale(0) brightness(1);
@@ -589,7 +595,7 @@ font-size: 0.9rem;
     width:33vw;
     height:44vh;
      background-repeat: no-repeat;
-    background-size:cover;
+    background-size:contain;
 }
 .hush{
     /* border:1px solid blueviolet; */
@@ -598,13 +604,13 @@ font-size: 0.9rem;
     width:33vw;
     height:44vh;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
  .floatz:hover{
     transform: scale(0.99);
     transition:all 1s ease;
-    background-size: cover;
-  background-color: rgb(0, 0, 0); 
+    background-size: contain;
+  /* background-color: rgb(0, 0, 0);  */
   
   opacity: 0.999;
   filter: grayscale(1%) brightness(0.5);
@@ -612,8 +618,8 @@ font-size: 0.9rem;
 .nine_west:hover{
     transform: scale(0.99);
     transition:all 1s ease;
-    background-size: cover;
-  background-color: rgb(0, 0, 0); 
+    background-size: contain;
+  /* background-color: rgb(0, 0, 0);  */
   
   opacity: 0.999;
   filter: grayscale(1%) brightness(0.5);
@@ -621,8 +627,8 @@ font-size: 0.9rem;
 .hush:hover{
     transform: scale(0.99);
     transition:all 1s ease;
-    background-size: cover;
-  background-color: rgb(0, 0, 0); 
+    background-size: contain;
+  /* background-color: rgb(0, 0, 0);  */
   
   opacity: 0.999;
   filter: grayscale(1%) brightness(0.6);
@@ -630,7 +636,7 @@ font-size: 0.9rem;
 .nine_west:hover{
     background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761331951/imgi_1637_M-nine-west_s0c32f.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-size:33vw 46vh;
     transition: all 0.5s linear;
 }
@@ -709,7 +715,7 @@ font-size: 0.9rem;
     /* border:1px solid green; */
     background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761325668/imgi_291_960x1280-px-_-Desktop-10by10-sneaker-collection_ids2jg.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:contain;
     width:25vw;
     height:68vh;
     position: relative;
@@ -718,7 +724,7 @@ font-size: 0.9rem;
    /* border:1px solid green; */
     background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761325668/imgi_292_960x1280-px-_Desktop---10by10-Wedding-collection_dn4scy.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:contain;
     width:25vw;
     height:68vh;
     position: relative;
@@ -727,7 +733,7 @@ font-size: 0.9rem;
    /* border:1px solid green; */
     background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761325668/imgi_293_960x1280-px-_Desktop---Exclusive-online_javbus.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:contain;
     width:25vw;
     height:68vh;
     position: relative;
@@ -736,7 +742,7 @@ font-size: 0.9rem;
    /* border:1px solid green; */
     background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761325668/imgi_294_960x1280-px-_Desktop---Exclusive-online-2_a9xuao.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:contain;
     width:25vw;
     height:68vh;
     position: relative;
@@ -763,8 +769,8 @@ font-size: 0.9rem;
 .fest:hover{
     transform: scale(0.99);
     transition:all 1s ease;
-    background-size: cover;
-  background-color: rgb(0, 0, 0); 
+    background-size: contain;
+  /* background-color: rgb(0, 0, 0);  */
   
   opacity: 0.999;
   filter: grayscale(1%) brightness(0.6);
@@ -772,8 +778,8 @@ font-size: 0.9rem;
 .fest2:hover{
     transform: scale(0.99);
     transition:all 1s ease;
-    background-size: cover;
-  background-color: rgb(0, 0, 0); 
+    background-size: contain;
+  /* background-color: rgb(0, 0, 0);  */
   
   opacity: 0.999;
   filter: grayscale(1%) brightness(0.6);
@@ -781,8 +787,8 @@ font-size: 0.9rem;
 .fest3:hover{
     transform: scale(0.99);
     transition:all 1s ease;
-    background-size: cover;
-  background-color: rgb(0, 0, 0); 
+    background-size: contain;
+  /* background-color: rgb(0, 0, 0);  */
   
   opacity: 0.999;
   filter: grayscale(1%) brightness(0.6);
@@ -790,13 +796,14 @@ font-size: 0.9rem;
 .fest4:hover{
     transform: scale(0.99);
     transition:all 1s ease;
-    background-size: cover;
-  background-color: rgb(0, 0, 0); 
+    background-size: contain;
+  /* background-color: rgb(0, 0, 0);  */
   
   opacity: 0.999;
   filter: grayscale(1%) brightness(0.6);
 }
 .l_main{
+    /* margin-bottom:400PX; */
     /* border:1px solid green; */
     width:100vw;
     height:60vh;
@@ -942,7 +949,7 @@ margin-top:2%;
     margin-right:1%;
 }
 .last_one{
-    border:1px solid red;
+    /* border:1px solid red; */
     height:10vh;
     display: flex;
     color: black;
@@ -952,3 +959,18 @@ margin-top:2%;
   font-size:0.8REM;
   
 }
+.for-flexten{
+  display: flex;
+  gap:0.1%;
+}
+ @media all and (max-width:600px) {
+  .name{
+    display: none;
+  }
+  .input{
+    display: none;
+  }
+  .variety{
+    flex-direction: column;
+  }
+} 

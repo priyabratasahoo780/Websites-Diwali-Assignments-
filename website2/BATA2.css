@@ -275,6 +275,7 @@ input{
 }
 .h_symbol{
     /* border: 1px solid orange; */
+    background-image:url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761541072/solar--heart-outline_rvbyak.svg");
     width:2vw;
     height:5vh;
     display: flex;
@@ -282,9 +283,9 @@ input{
     align-items: center;
     background-color: rgb(240,240,240);
     margin-top:6%;
-    
+    background-repeat: no-repeat;
 }
-.h_symbol img{
+/* .h_symbol img{
     display: flex;
     align-items: center;
    position: relative;
@@ -292,7 +293,8 @@ input{
    left:50%;
    transform: translate(-50%, -50%);
     background-color: rgb(240,240,240);
-}
+} */
+ 
 .O_Army{
     /* border:1px solid red; */
     width:100vw;
@@ -404,6 +406,10 @@ input{
     height:2.8vh;
     display: flex;
     background-color: rgb(240,240,240);
+}
+.plus{
+    background-color: rgb(240,240,240);
+
 }
 .mrp{
     /* border: 1px solid palegoldenrod; */
@@ -727,6 +733,7 @@ del{
     position: sticky;
     top:44px;
 }
+
 .show{
    /* border: 1px solid red; */
    width:100vw;
